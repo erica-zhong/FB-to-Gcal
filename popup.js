@@ -17,3 +17,8 @@ changeColor.onclick = function(element) {
           {code: 'document.body.style.backgroundColor = "' + color + '";'});
     });
   };
+// chrome.tabs.executeScript({
+//     file: "contentScript.js"
+// }, function() {
+//     console.log("contentScript.js injected")
+// })
